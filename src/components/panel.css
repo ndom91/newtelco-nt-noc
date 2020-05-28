@@ -1,0 +1,16 @@
+.Panel {
+  border-radius: 50px;
+  background: #3c3c3c;
+  box-shadow: 20px 20px 60px #333333, -20px -20px 60px #454545;
+
+  height: 95vh;
+  margin: 20px;
+}
+
+.Panel-header {
+  border-radius: 50px;
+  padding: 20px;
+  font-size: 2em;
+  color: #fff;
+  font-family: 'Lato', 'Helvetica', san-serif;
+}
