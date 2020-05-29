@@ -2,6 +2,7 @@ import { h } from 'preact';
 import './sidebar.css';
 
 const Sidebar = () => {
+  // TODO: Netdata Notes: https://learn.netdata.cloud/docs/agent/step-by-step/step-08/
   return (
     <ul className="Sidebar">
       <li className="icon home" onClick={() => console.log('test')}>

@@ -1,27 +1,28 @@
-# New Project
+# Newtelco NOC Dashboard
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+![badge version](https://img.shields.io/badge/v-0.0.2-brightgreen?style=flat)
+![badge maintainer](https://img.shields.io/badge/maintainer-ndomino-brightgreen?style=flat)
 
-## Available Scripts
+## 🚀 Getting Started
 
-### npm start
+Clone the repo
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+1. `git clone https://git.newtelco.dev/ndomino/nt-noc.git`
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+Install dependencies
 
-### npm test
+2. `cd nt-noc && npm install`
 
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+Start dev server
 
-### npm run build
+3. `npm start`
 
-Builds the app for production to the `build/` folder.
-It correctly bundles Preact in production mode and optimizes the build for the best performance.
+You will then have a local version running at `localhost:8080`.
 
-### Q: What about Eject?
+## 📷 Screenshots
 
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
+![Screenshot 1](https://i.imgur.com/H7baKkH.png)
+
+## 📰 License
+
+MIT
