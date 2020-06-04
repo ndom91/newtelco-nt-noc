@@ -12,5 +12,6 @@
   padding: 20px;
   font-size: 2em;
   color: #fff;
-  font-family: 'Lato', 'Helvetica', san-serif;
+  font-family: var(--font-header);
+  font-weight: 200;
 }

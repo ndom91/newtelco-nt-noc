@@ -1,11 +1,11 @@
 .grid-container {
   display: grid;
-  grid-template-columns: 0.2fr 1.3fr 1.3fr 1.3fr;
-  grid-template-rows: 0.3fr 1fr 1fr 1fr;
-  grid-template-areas: 'sidebar header header header' 'sidebar a1 a2 a3' 'sidebar b1 b2 b3' 'sidebar c123 c123 c123';
+  grid-template-columns: 30px 1.3fr 1.3fr 1.3fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 'sidebar a1 a2 a3' 'sidebar b1 b2 b3' 'sidebar c123 c123 c123';
   height: 100vh;
   width: 100%;
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: visible;
 }
 
@@ -14,7 +14,6 @@
   border-top-left-radius: 25px;
   padding: 20px 40px;
   font-size: 2.4em;
-  font-family: 'Nunito';
   font-weight: 200;
   color: #fff;
 }
@@ -66,6 +65,8 @@
   grid-area: c123;
   background: #3c3c3c;
   border-bottom-left-radius: 25px;
+  overflow-x: hidden;
+  padding: 10px;
 }
 
 .item {
@@ -92,8 +93,100 @@
   background-color: #202020;
 
   font-size: 2rem;
-  font-family: 'Open Sans';
+  font-family: var(--font-header);
   border-radius: 50px;
   background: #292929;
   box-shadow: inset -20px -20px 60px #232323, inset 20px 20px 60px #2f2f2f;
+}
+
+.data-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pve-item {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pve-logo {
+  width: 32px;
+  padding: 5px;
+  margin-left: 5px;
+}
+.pve-logo-wrapper {
+  position: relative;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  background: linear-gradient(145deg, #2e2e2e, #373737);
+  box-shadow: 9px 9px 25px #242424, -9px -9px 25px #424242;
+}
+
+.pve-logo-label {
+  color: #fff;
+  font-size: 1.6rem;
+  font-family: var(--body-font);
+  margin: 0px 10px 0 5px;
+}
+
+.cpu-label {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-family: var(--font-body);
+}
+
+.do-item {
+  width: 30%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.do-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.do-stat-wrapper {
+  flex-grow: 1;
+}
+
+.do-cpu {
+}
+
+.do-ram {
+}
+
+.do-label-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.do-cpu-label {
+}
+
+.do-ram-label {
+}
+
+.b1 {
+  padding: 0;
+}
+
+.nms-traffic {
+  width: 400px;
+  max-width: 400px;
+}
+
+.ticker__item {
+  margin: 0 10px;
 }

@@ -1,3 +1,22 @@
 {
-  "extends": "@snowpack/app-scripts-preact/babel.config.json"
+  "extends": "@snowpack/app-scripts-preact/babel.config.json",
+  "plugins": [
+    [
+      "@babel/plugin-transform-react-jsx",
+      {
+        "pragma": "h",
+        "pragmaFrag": "Fragment"
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": ["/dist"],
+        "alias": {
+          "react": "preact-compat",
+          "react-dom": "preact-compat"
+        }
+      }
+    ]
+  ]
 }
