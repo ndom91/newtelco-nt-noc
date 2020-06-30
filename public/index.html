@@ -14,14 +14,14 @@
     ></script> -->
     <script
       type="text/javascript"
-      src="http://192.168.11.205:19999/dashboard.js"
+      src="http://192.168.11.201:19999/dashboard-react.js"
     ></script>
     <script>
       // Set options for TV operation
       // This has to be done, after dashboard.js is loaded
 
       // destroy charts not shown (lowers memory on the browser)
-      // NETDATA.options.current.destroy_on_hide = false;
+      NETDATA.options.current.destroy_on_hide = true
 
       // set this to false, to always show all dimensions
       //NETDATA.options.current.eliminate_zero_dimensions = true;
@@ -35,7 +35,7 @@
 
       // always update the charts, even if focus is lost
 
-      NETDATA.options.current.stop_updates_when_focus_is_lost = false
+      // NETDATA.options.current.stop_updates_when_focus_is_lost = false
 
       // Since you may render charts from many servers and any of them may
       // become offline for some time, the charts will break.

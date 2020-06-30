@@ -208,29 +208,28 @@ function App() {
       <div className='item b1'>
         <div className='item-header'>NCEX</div>
         {/* re0-ncex-mx960-b.2.17 - 172.16.4.1 - Total Traffic */}
-        <img
-          clssName='nms-traffic'
-          width='380'
-          src='https://nms.newtelco.de/graph.php?type=device_bits&period=86400&device=84&to=1591193206&from=-86400&draw_all=yes&legend=no&class=image-refresh&height=200&width=380&format=svg'
+        <object
+          className='obsSvg'
+          type='image/svg+xml'
+          data='https://nms.newtelco.de/graph.php?type=device_bits&device=84&period=86400&from=-86400&draw_all=yes&legend=no&height=125&width=320&format=svg'
         />
       </div>
       <div className='item b2'>
         {/* ncex - 172.16.4.130 - eshelter */}
         <div className='item-header'>eShelter</div>
-        <img
-          clssName='nms-traffic'
-          width='380'
-          src='https://nms.newtelco.de/graph.php?to=1591198980&device=5&type=device_bits&from=1591112580&legend=no&height=200&width=380&format=svg'
+        <object
+          className='obsSvg'
+          type='image/svg+xml'
+          data='https://nms.newtelco.de/graph.php?period=86400&from=-86400&device=5&type=device_bits&legend=no&height=125&width=320&format=svg'
         />
       </div>
       <div className='item b3'>
         {/* mikrotik 192.168.11.3 - office */}
         <div className='item-header'>Office</div>
-        <img
-          clssName='nms-traffic'
-          width='380'
-          src='https://nms.newtelco.de/graph.php?to=1591198964&device=133&type=device_bits&from=1591112564&legend=no&height=200&width=380&format=svg'
-          style={{ fill: '#fff' }}
+        <object
+          className='obsSvg'
+          type='image/svg+xml'
+          data='https://nms.newtelco.de/graph.php?period=86400&from=-86400&device=133&type=device_bits&legend=no&height=125&width=320&format=svg'
         />
       </div>
       <div className='item c123'>
