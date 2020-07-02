@@ -1,6 +1,5 @@
 import { h } from 'preact'
 import './App.css'
-import Panel from './components/panel'
 import Sidebar from './components/sidebar'
 import Marquee from './components/marquee'
 

@@ -8,7 +8,7 @@ html {
   grid-template-columns: 30px 1.3fr 1.3fr 1.3fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 'sidebar a1 a2 a3' 'sidebar b1 b2 b3' 'sidebar c123 c123 c123';
-  height: 100%;
+  height: 100vh;
   width: 100%;
   border-radius: 15px;
   overflow: visible;
@@ -37,16 +37,19 @@ html {
 }
 
 .a1 {
+  margin-top: 25px !important;
   grid-area: a1;
   background: #3c3c3c;
 }
 
 .a2 {
+  margin-top: 25px !important;
   grid-area: a2;
   background: #3c3c3c;
 }
 
 .a3 {
+  margin-top: 25px !important;
   grid-area: a3;
   background: #3c3c3c;
 }
@@ -71,6 +74,7 @@ g#surface2 g {
 }
 
 .c123 {
+  padding-top: 20px !important;
   grid-area: c123;
   background: #3c3c3c;
   border-bottom-left-radius: 25px;
@@ -80,8 +84,8 @@ g#surface2 g {
 
 .item {
   position: relative;
-  padding: 10px;
-  margin: 10px;
+  padding: 0px;
+  margin: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
