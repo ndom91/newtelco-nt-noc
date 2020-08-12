@@ -9,8 +9,8 @@ function App() {
       <div className='inside'></div>
       <div className='item a1'>
         <div className='item-header'>nt-batman</div>
-        <div className='data-row'>
-          <div
+	  <iframe src="https://dashboard.newtelco.dev/d-solo/y-KD-vRMk/node-exporter-server-metrics?orgId=1&var-node=localhost:9100&panelId=13" width="90%" height="250" frameborder="0"></iframe>
+	  {/*<div
             data-netdata='system.cpu'
             data-dimensions='user'
             data-chart-library='gauge'
@@ -46,11 +46,12 @@ function App() {
           data-units=''
           data-legend='no'
           data-dygraph-drawaxis='false'
-        ></div>
+        ></div> */}
       </div>
       <div className='item a2'>
         <div className='item-header'>Proxmox</div>
-        <div className='pve-item'>
+	  <iframe src="https://dashboard.newtelco.dev/d-solo/TZb7bDRMk/newtelco-digitalocean?orgId=1&var-job=node_exporter&var-hostname=nt-pve2&var-hostname=nt-pve&var-hostname=nt-pve6&var-hostname=nt-pve5&var-node=All&var-maxmount=&var-env=&var-name=&panelId=13" width="90%" height="250" frameborder="0"></iframe>
+	  {/*<div className='pve-item'>
           <span className='pve-logo-wrapper'>
             <img
               src='/img/pve_white.webp'
@@ -145,11 +146,12 @@ function App() {
             data-dt-element-name='pve6_cpu'
           ></div>
           <span className='cpu-label' id='pve6_cpu'></span>
-        </div>
+        </div> */}
       </div>
       <div className='item a3' style={{ flexDirection: 'row' }}>
         <div className='item-header'>DigitalOcean</div>
-        <div className='do-item'>
+	  <iframe src="https://dashboard.newtelco.dev/d-solo/TZb7bDRMk/newtelco-digitalocean?orgId=1&panelId=13" width="90%" height="250" frameborder="0"></iframe>
+	  {/*<div className='do-item'>
           <div
             data-netdata='system.cpu'
             data-host='https://stats.gitlab.newtelco.dev/'
@@ -202,7 +204,7 @@ function App() {
             data-dygraph-drawaxis='false'
           ></div>
           <span>nt-other</span>
-        </div>
+        </div> */}
       </div>
       <div className='item b1'>
         <div className='item-header'>NCEX</div>
