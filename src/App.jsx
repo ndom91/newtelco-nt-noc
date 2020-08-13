@@ -1,9 +1,16 @@
 import { h } from 'preact'
+import { useEffect } from 'preact/hooks'
 import './App.css'
 import Sidebar from './components/sidebar'
 import Marquee from './components/marquee'
 
 function App() {
+
+  useEffect(() => {
+    const MIN = 5
+    setTimeout(function(){ location.reload(); }, MIN * 60 * 1000);
+  }, [])
+
   return (
     <div className='grid-container'>
       <div className='inside'></div>

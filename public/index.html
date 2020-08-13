@@ -15,10 +15,10 @@
     <script>
       var netdataNoBootstrap = true
     </script>
-    <script
+    <!-- <script
       type="text/javascript"
       src="https://netdata.batman.newtelco.dev/dashboard.js"
-    ></script>
+    ></script>-->
     <script>
       // Set options for TV operation
       // This has to be done, after dashboard.js is loaded
@@ -27,10 +27,10 @@
       // NETDATA.options.current.destroy_on_hide = true
 
       // set this to false, to always show all dimensions
-      NETDATA.options.current.eliminate_zero_dimensions = true
+      // NETDATA.options.current.eliminate_zero_dimensions = true
 
       // lower the pressure on this browser
-      NETDATA.options.current.concurrent_refreshes = false
+      // NETDATA.options.current.concurrent_refreshes = false
 
       // if the tv browser is too slow (a pi?)
       // set this to false
@@ -38,16 +38,16 @@
 
       // always update the charts, even if focus is lost
 
-      NETDATA.options.current.stop_updates_when_focus_is_lost = false
+      // NETDATA.options.current.stop_updates_when_focus_is_lost = false
 
       // Since you may render charts from many servers and any of them may
       // become offline for some time, the charts will break.
       // This will reload the page every RELOAD_EVERY minutes
 
-      var RELOAD_EVERY = 5;
-      setTimeout(function(){
-          location.reload();
-      }, RELOAD_EVERY * 60 * 1000);
+      // const RELOAD_EVERY = 1;
+      // setTimeout(function(){
+          // window.location.reload();
+      // }, RELOAD_EVERY * 60 * 100);
     </script>
     <title>Newtelco NOC</title>
   </head>
