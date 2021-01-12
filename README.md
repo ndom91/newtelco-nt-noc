@@ -1,6 +1,6 @@
 # Newtelco NOC Dashboard
 
-![badge version](https://img.shields.io/badge/v-0.0.2-brightgreen?style=flat)
+![badge version](https://img.shields.io/badge/v-0.1.3-brightgreen?style=flat)
 ![badge maintainer](https://img.shields.io/badge/maintainer-ndomino-brightgreen?style=flat)
 
 ## 🚀 Getting Started
@@ -18,6 +18,12 @@ Start dev server
 3. `npm start`
 
 You will then have a local version running at `localhost:8080`.
+
+## 🗄 Features
+
+- Grafana bandwidth / load / traffic graphs
+- ffmpeg transcoded live feed from colocation
+- snowpack bundle-less preact build
 
 ## 📷 Screenshots
 
