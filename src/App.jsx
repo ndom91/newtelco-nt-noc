@@ -16,15 +16,15 @@ function App() {
       <div className='inside'></div>
       <div className='item a1'>
         <div className='item-header'>nt-batman</div>
-	  <iframe src="https://dashboard.newtelco.dev/d/rWuiSZNGz/noc-dashboard-charts-office?viewPanel=12&orgId=1" width="90%" height="250" frameborder="0"></iframe>
+	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=12&orgId=1" width="90%" height="250" frameborder="0"></iframe>
       </div>
       <div className='item a2'>
         <div className='item-header'>Proxmox</div>
-	  <iframe src="https://dashboard.newtelco.dev/d/rWuiSZNGz/noc-dashboard-charts-office?viewPanel=11&orgId=1" width="90%" height="250" frameborder="0"></iframe>
+	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=11&orgId=1" width="90%" height="250" frameborder="0"></iframe>
       </div>
       <div className='item a3' style={{ flexDirection: 'row' }}>
         <div className='item-header'>DigitalOcean</div>
-	  <iframe src="https://dashboard.newtelco.dev/d/rWuiSZNGz/noc-dashboard-charts-office?viewPanel=10&orgId=1" width="90%" height="250" frameborder="0"></iframe>
+	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=10&orgId=1" width="90%" height="250" frameborder="0"></iframe>
       </div>
       <div className='item b1'>
         <div className='item-header'>NCEX</div>
