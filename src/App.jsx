@@ -16,15 +16,15 @@ function App() {
       <div className='inside'></div>
       <div className='item a1'>
         <div className='item-header'>nt-batman</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/y-KD-vRMk/node-exporter-server-metrics?orgId=1&var-node=localhost:9100&panelId=13" width="90%" height="250" frameborder="0"></iframe>
+	  <iframe src="https://dashboard.newtelco.dev/d/rWuiSZNGz/noc-dashboard-charts-office?viewPanel=12&orgId=1" width="90%" height="250" frameborder="0"></iframe>
       </div>
       <div className='item a2'>
         <div className='item-header'>Proxmox</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/TZb7bDRMk/newtelco-digitalocean?orgId=1&var-job=node_exporter&var-hostname=nt-pve2&var-hostname=nt-pve&var-hostname=nt-pve6&var-hostname=nt-pve5&var-node=All&var-maxmount=&var-env=&var-name=&panelId=13" width="90%" height="250" frameborder="0"></iframe>
+	  <iframe src="https://dashboard.newtelco.dev/d/rWuiSZNGz/noc-dashboard-charts-office?viewPanel=11&orgId=1" width="90%" height="250" frameborder="0"></iframe>
       </div>
       <div className='item a3' style={{ flexDirection: 'row' }}>
         <div className='item-header'>DigitalOcean</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/TZb7bDRMk/newtelco-digitalocean?orgId=1&panelId=13" width="90%" height="250" frameborder="0"></iframe>
+	  <iframe src="https://dashboard.newtelco.dev/d/rWuiSZNGz/noc-dashboard-charts-office?viewPanel=10&orgId=1" width="90%" height="250" frameborder="0"></iframe>
       </div>
       <div className='item b1'>
         <div className='item-header'>NCEX</div>
