@@ -27,7 +27,7 @@ You will then have a local version running at `localhost:8080`.
 
 ## 📷 Screenshots
 
-![Screenshot 1](https://i.imgur.com/spW1deX.png)
+![Screenshot 1](https://imgur.com/kwHFkB1.png)
 
 ## 📰 License
 

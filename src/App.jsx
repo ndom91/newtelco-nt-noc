@@ -80,14 +80,14 @@ function App() {
               style='border:none;'
             ></img>
           </div>
-          <div class='ticker__item'>
+	  {/* <div class='ticker__item'>
             <img
               src='http://cam2.newtelco.local:8090/s6.mjpg'
               height='250'
               width='425'
               style='border:none;'
             ></img>
-          </div>
+          </div> */}
           <div class='ticker__item'>
             <img
               src='http://cam3.newtelco.local:8090/s7.mjpg'
@@ -104,14 +104,14 @@ function App() {
               style='border:none;'
             ></img>
           </div>
-          <div class='ticker__item'>
+	  {/* <div class='ticker__item'>
             <img
               src='http://cam3.newtelco.local:8090/s10.mjpg'
               height='250'
               width='425'
               style='border:none;'
             ></img>
-          </div>
+          </div> 
           <div class='ticker__item'>
             <img
               src='http://cam4.newtelco.local:8090/s11.mjpg'
@@ -119,7 +119,7 @@ function App() {
               width='425'
               style='border:none;'
             ></img>
-          </div>
+          </div> */}
           <div class='ticker__item'>
             <img
               src='http://cam4.newtelco.local:8090/s12.mjpg'
