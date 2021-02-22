@@ -154,7 +154,7 @@ function App() {
           </div>
           <div class='ticker__item'>
             <img
-              src='http://cam4.newtelco.local:8090/s18.mjpg'
+              src='http://cam1.newtelco.local:8090/s18.mjpg'
               height='250'
               width='425'
               style='border:none;'
