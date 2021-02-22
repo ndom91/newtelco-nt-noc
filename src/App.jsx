@@ -159,6 +159,7 @@ function App() {
               width='425'
               style='border:none;'
             ></img>
+	  </div>
           <div class='ticker__item'>
             <img
               src='http://cam2.newtelco.local:8090/s19.mjpg'
