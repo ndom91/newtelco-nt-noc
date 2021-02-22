@@ -159,6 +159,13 @@ function App() {
               width='425'
               style='border:none;'
             ></img>
+          <div class='ticker__item'>
+            <img
+              src='http://cam2.newtelco.local:8090/s19.mjpg'
+              height='250'
+              width='425'
+              style='border:none;'
+            ></img>
           </div>
         </Marquee>
       </div>
