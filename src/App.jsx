@@ -136,6 +136,30 @@ function App() {
               style='border:none;'
             ></img>
           </div>
+          <div class='ticker__item'>
+            <img
+              src='http://cam4.newtelco.local:8090/s16.mjpg'
+              height='250'
+              width='425'
+              style='border:none;'
+            ></img>
+          </div>
+          <div class='ticker__item'>
+            <img
+              src='http://cam4.newtelco.local:8090/s17.mjpg'
+              height='250'
+              width='425'
+              style='border:none;'
+            ></img>
+          </div>
+          <div class='ticker__item'>
+            <img
+              src='http://cam4.newtelco.local:8090/s18.mjpg'
+              height='250'
+              width='425'
+              style='border:none;'
+            ></img>
+          </div>
         </Marquee>
       </div>
       <div className='sidebar'>
