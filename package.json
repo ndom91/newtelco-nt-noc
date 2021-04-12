@@ -4,7 +4,8 @@
     "build": "snowpack build",
     "test": "web-test-runner \"src/**/*.test.jsx\"",
     "format": "prettier --write 'src/**/*.{js,jsx}'",
-    "lint": "prettier --check 'src/**/*.{js,jsx}'"
+    "lint": "prettier --check 'src/**/*.{js,jsx}'",
+		"serve": "serve build"
   },
   "dependencies": {
     "preact": "^10.5.13"
@@ -18,6 +19,7 @@
     "@web/test-runner": "^0.12.19",
     "chai": "^4.3.4",
     "prettier": "^2.2.1",
+    "serve": "^11.3.2",
     "snowpack": "^3.2.2"
   }
 }
