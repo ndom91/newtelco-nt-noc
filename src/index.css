@@ -4,7 +4,6 @@
 :root {
   --font-body: 'Fira Sans';
   --font-header: 'Inconsolata';
-
   --primary: #67b246;
 }
 
@@ -14,9 +13,4 @@ body {
   height: 100%;
   width: 100%;
   font-family: var(--font-body);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }

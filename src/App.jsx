@@ -1,14 +1,15 @@
 import { h } from 'preact'
 import { useEffect } from 'preact/hooks'
-import './App.css'
-import Sidebar from './components/sidebar'
 import Marquee from './components/marquee'
+import './App.css'
 
 function App() {
-
   useEffect(() => {
     const MIN = 5
-    setTimeout(function(){ location.reload(); }, MIN * 60 * 1000);
+
+    setTimeout(function () {
+      location.reload()
+    }, MIN * 60 * 1000)
   }, [])
 
   return (
@@ -16,27 +17,57 @@ function App() {
       <div className='inside'></div>
       <div className='item a1'>
         <div className='item-header'>nt-batman</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=12&orgId=1" width="90%" height="250" frameborder="0"></iframe>
+        <iframe
+          src='https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=12&orgId=1'
+          width='90%'
+          height='250'
+          frameborder='0'
+        ></iframe>
       </div>
       <div className='item a2'>
         <div className='item-header'>Proxmox</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=11&orgId=1" width="90%" height="250" frameborder="0"></iframe>
+        <iframe
+          src='https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=11&orgId=1'
+          width='90%'
+          height='250'
+          frameborder='0'
+        ></iframe>
       </div>
       <div className='item a3' style={{ flexDirection: 'row' }}>
         <div className='item-header'>DigitalOcean</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=10&orgId=1" width="90%" height="250" frameborder="0"></iframe>
+        <iframe
+          src='https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?panelId=10&orgId=1'
+          width='90%'
+          height='250'
+          frameborder='0'
+        ></iframe>
       </div>
       <div className='item b1'>
         <div className='item-header'>NCEX</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?orgId=1&panelId=2" width="90%" height="250" frameborder="0"></iframe>
+        <iframe
+          src='https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?orgId=1&panelId=2'
+          width='90%'
+          height='250'
+          frameborder='0'
+        ></iframe>
       </div>
       <div className='item b2'>
         <div className='item-header'>eShelter</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/yZg6lRHGk/eshelter?orgId=1&var-Interface=ae0&panelId=3" width="90%" height="250" frameborder="0"></iframe>
+        <iframe
+          src='https://dashboard.newtelco.dev/d-solo/yZg6lRHGk/eshelter?orgId=1&var-Interface=ae0&panelId=3'
+          width='90%'
+          height='250'
+          frameborder='0'
+        ></iframe>
       </div>
       <div className='item b3'>
         <div className='item-header'>Office</div>
-	  <iframe src="https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?orgId=1&panelId=4" width="90%" height="250" frameborder="0"></iframe>
+        <iframe
+          src='https://dashboard.newtelco.dev/d-solo/rWuiSZNGz/noc-dashboard-charts-office?orgId=1&panelId=4'
+          width='90%'
+          height='250'
+          frameborder='0'
+        ></iframe>
       </div>
       <div className='item c123'>
         <Marquee>
@@ -80,7 +111,7 @@ function App() {
               style='border:none;'
             ></img>
           </div>
-	  {/* <div class='ticker__item'>
+          {/* <div class='ticker__item'>
             <img
               src='http://cam2.newtelco.local:8090/s6.mjpg'
               height='250'
@@ -104,7 +135,7 @@ function App() {
               style='border:none;'
             ></img>
           </div>
-	  {/* <div class='ticker__item'>
+          {/* <div class='ticker__item'>
             <img
               src='http://cam3.newtelco.local:8090/s10.mjpg'
               height='250'
@@ -159,7 +190,7 @@ function App() {
               width='425'
               style='border:none;'
             ></img>
-	  </div>
+          </div>
           <div class='ticker__item'>
             <img
               src='http://cam2.newtelco.local:8090/s19.mjpg'
@@ -170,9 +201,7 @@ function App() {
           </div>
         </Marquee>
       </div>
-      <div className='sidebar'>
-        <Sidebar />
-      </div>
+      <div className='sidebar'></div>
     </div>
   )
 }
